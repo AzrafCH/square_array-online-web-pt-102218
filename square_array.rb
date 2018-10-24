@@ -1,6 +1,6 @@
 def square_array(array)
   new_arr = []
-array.each {|x| x ** 2}
+array.each do |x|
 
 return new_arr
 end
